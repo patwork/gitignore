@@ -1,11 +1,18 @@
-# Godot-specific ignores
-.import/
+# Godot 3.x ignores
+.import/*
+!.import/.gdignore
+
+# Godot 4.x ignores
+.godot/*
+!.godot/.gdignore
+
+# Mono-specific ignores
+.mono/
+data_*/
+
+# Export configs
 export.cfg
 export_presets.cfg
 
 # Imported translations (automatically generated from CSV files)
 *.translation
-
-# Mono-specific ignores
-.mono/
-data_*/
